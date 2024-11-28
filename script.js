@@ -62,7 +62,7 @@ $(document).ready(function () {
         return parseInt(value) >= parseInt($(param).val());
     }, "This value must be greater than or equal to the other field.");
 
-    // Slider Initialization and Synchronization
+    // Slider Initialization
     const setupSlider = (sliderId, inputId) => {
         $(sliderId).slider({
             min: -50,
@@ -182,7 +182,7 @@ $("#tabs").on("click", ".close-tab", function (e) {
         // Update the main table
         $("#tableContainer").html(table);
 
-        // Add a new tab only when triggered by form submission
+        // Add a new tab when triggered by form submission
         if (createTab) {
             const label = `Cols: ${minColumn}-${maxColumn}, Rows: ${minRow}-${maxRow}`;
             addNewTab(label, table);
