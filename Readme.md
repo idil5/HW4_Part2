@@ -1,7 +1,7 @@
-Name: Idil Hassan
+Name: Idil Hassan  
 ID: 02110597
 
-Github URL: https://idil5.github.io/HW4_Part2/
+Github URL: https://idil5.github.io/HW4_Part2/  
 Repository: https://github.com/idil5/HW4_Part2
 # Part 2: Implementing jQuery UI Slider and Tab Widgets
 
